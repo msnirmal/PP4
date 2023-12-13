@@ -1,39 +1,161 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **General Knowledge Quiz**
 
-Welcome,
+[Visit the website here](https://tasks-2023-app-1660f4d988b2.herokuapp.com/)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This app is created in order to plan tasks and the app also allows to edit or compelete the tasks and delete
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+This app is made up of the following sections:
 
-## Codeanywhere Reminders
+1. Slot to add tasks and submit
+2. Edit / complete tasks
+3. Delete tasks
+4. Log in
+5. Log out
+6. sign up
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+**Developer Goals** :
 
-`python3 -m http.server`
+1. To help users enable to pla or keep track of tasks
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+**User Goals:**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+1.	As a first-time visitor, I want an app where i could add tasks
 
-`http_server`
+2.	As a first-time visitor, I want to edit any added tasks or complete once done
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+3.	As a first-time visitor, delete tasks
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+==
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## **UX**
 
 ---
 
-Happy coding!
+### **Strategy**
+
+To be in line with UX principles, first i thought  of a strategy to identify who the target users would be and what features they are looking for
+
+Tasks/ ToDo app target users are:
+
+* Aged 15 & over (Can be under 15's with parental permission to use electronics)
+* People who love to be organized in term of their tasks 
+
+
+User requirements:
+
+* Simple and easy to use 
+* Basic website with add, edit & delete functionalities
+
+### **Structure**
+
+The structure involves space to add new tasks, button to edit or complete tasks and a button to delete tasks 
+
+## **Features**
+
+---
+
+This app is designed with an intent to help users to easily organize their tasks and update status 
+
+### *Add New Tasks & Submit*
+
+![](documents/images/addtask_submit.png)
+
+### *Edit/ Complete Tasks*
+
+![](documents/images/edit_delete_items.png)
+![](documents/images/edit_complete_page.png)
+
+### *Delete*
+
+![](documents/images/delete_page.png)
+
+## Technologies Used
+
+The technologies i have used to create this website are as below-
+
+    
+  * [Django](https://www.djangoproject.com/)
+  * [python](https://www.python.org/)
+  * Used as the main programming language
+  * [GitHub](https://github.com/)
+  * Used to store code for the project after being pushed.
+  * [codeanywhere](https://codeanywhere.com/)
+  * Used as the development environment.
+  * [Heroku](https://heroku.com/)
+  * Used for deployment
+
+## Testing
+
+Testing was done manually during development, no automation created due to time constraints. Will be working this further for enhancement 
+
+
+## Deployment
+
+---
+
+The website was deployed to Heroku using the following steps on the CLI:
+
+### Login or create an account at Heroku
+
+* Sign up for an account in Heroku and login
+
+### Creating an app using heroku create app command
+
+### Add Config Vars
+
+### Use git push heroku main to deploy
+
+### Link local git hub repo to heroku to automatically update any changes to heroku
+
+* Connect GitHub
+* Login if prompted
+
+### Connect to GitHub
+
+* Choose repositories you want to connect
+* Click "Connect"
+
+### Automatic 
+
+* Enable auotmatic deploy
+  
+
+### Final Deployment
+
+* Click the view link to diplay the deployed website
+
+### Forking the GitHub Repository
+
+* Go to the GitHub repository
+* Click on Fork button in top right corner
+* You will then have a copy of the repository in your own GitHub account.
+* GitHub Repository
+
+### Cloning the repository in GitHub
+
+* Visit the GitHub page of the website's repository
+* Click the “Clone” button on top of the page
+* Click on “HTTPS”
+* Click on the copy button next to the link to copy it
+* Open your IDE
+* Type git clone (copied URL)   into the terminal
+
+## Credits
+
+Have used various sources to arrive at the idea of designing the quiz
+
+* You Tube Videos - Some of the code blocks are used following you tube videos of similar apps 
+* Stackoverflow (for any error encountered)
+* Hello Django walk through project & deployment steps 
+
+## Acknowledgements
+
+* This project could not be completed with authentication functionalities as a result of time contraints & also the fact that i was struggling with initial deployment which resulted in some code breaking, as a result of which i had a create a new repo and copy & paste the codes from the original repo (https://github.com/msnirmal/Portfolio4), which i was planning to submit. I will be working this further to get it up in entirety with authentication functionalities 
+  
+* The responsiveness of the website is an issue, that i am working to fix 
+* Followed agile methodology, however, unfortunately, i lost all the user stories at the time of submission 
+* The app needs more work on the aspects above but submitting based on the fact that that the main functionalities of add/edit/ compelte/ delete are working fine 
+
+
+
+
