@@ -154,7 +154,7 @@ Have used various sources to arrive at the idea of designing the quiz
   
 * The responsiveness of the website is an issue, that i am working to fix 
 * Followed agile methodology, however, unfortunately, i lost all the user stories at the time of submission 
-* The app needs more work on the aspects above but submitting based on the fact that that the main functionalities of add/edit/ compelte/ delete are working fine 
+* The app needs more work on the aspects above & some more but submitting based on the fact that the main functionalities of add/edit/ compelte/ delete are working fine 
 
 
 
