@@ -1,4 +1,4 @@
-# **General Knowledge Quiz**
+# **Task Organiser**
 
 [Visit the website here](https://tasks-2023-app-1660f4d988b2.herokuapp.com/)
 
